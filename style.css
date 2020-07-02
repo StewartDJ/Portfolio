@@ -6,7 +6,7 @@ body{
 }
 
 :root{
-    --color-primary:#000000;
+    --color-primary:#050300;
     --color-secondary: #d8b51bee;
     --color-border: #ffffff34;
     --font-staat: 'Staatliches', cursive;
@@ -31,8 +31,9 @@ body{
     .font-size-34{
         font-size: 34px;
     }
+    /* change class name*/ 
     .font-size-27{
-        font-size: 27px;
+        font-size: 75px;
     }
     .font-size-20{
         font-size: 20px;
@@ -67,8 +68,18 @@ body{
 
     #projects {
         height: 100vh;
+        
     }
+#education{
+    height: 100vh;
+}
+#experience{
+    height: 100vh;
+}
     
+#contact{
+    height: 100vh;
+}
     #header .site-title .navbar .navbar-brand{
         letter-spacing: 2px;
         color: var(--color-secondary);
@@ -129,6 +140,10 @@ body{
 h2{ 
     
     margin: auto auto; 
+}
+
+li{
+    list-style-type: none;
 }
 
 .container img{
