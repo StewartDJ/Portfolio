@@ -60,25 +60,30 @@ body{
 
     #header nav{
         height: 100vh;
+        
     }
 
     #skills {
         height: 100vh;
+        margin: 50px 50px 50px 50px;
     }
 
-    #projects {
+    #projects{
         height: 100vh;
         
     }
 #education{
     height: 100vh;
+    margin: 50px 50px 50px 50px;
 }
 #experience{
     height: 100vh;
+    margin: 50px 50px 50px 50px;
 }
     
 #contact{
     height: 100vh;
+    margin: 50px 50px 50px 50px;
 }
     #header .site-title .navbar .navbar-brand{
         letter-spacing: 2px;
@@ -138,12 +143,15 @@ body{
 }
 
 h2{ 
-    
     margin: auto auto; 
 }
 
 li{
     list-style-type: none;
+}
+
+.col-md-3 {
+    display: block;
 }
 
 .container img{
