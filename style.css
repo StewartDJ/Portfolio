@@ -60,6 +60,14 @@ body{
     #header nav{
         height: 100vh;
     }
+
+    #skills {
+        height: 100vh;
+    }
+
+    #projects {
+        height: 100vh;
+    }
     
     #header .site-title .navbar .navbar-brand{
         letter-spacing: 2px;
@@ -115,9 +123,17 @@ body{
     background: url(./assets/me2.jpg) no-repeat;
     background-size: 110%;
     background-position: 40% 0;
+    
 }
 
+h2{ 
+    
+    margin: auto auto; 
+}
 
+.container img{
+    padding: 15px 15px 15px 15px;
+}
 
     @media screen and (min-width: 768px) {
         .toggle-button{
