@@ -106,10 +106,11 @@ section{
         padding: 20px 20px 20px 20px;
     }
 
+
     #experience {
-        overflow: auto;
        
-        width: 100%;
+       
+        width: 600vw;
         height: 100vh;
         margin: auto auto;
     }
@@ -215,6 +216,7 @@ li{
 }
 
 .container {
+    
     display: block;
     margin: auto auto;
 }
